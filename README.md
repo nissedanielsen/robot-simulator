@@ -9,6 +9,16 @@ The application is a simulation of a toy robot moving on a square tabletop with 
 - Java 8 or higher
 - Maven
 
+## Run application
+
+### Build the JAR
+- mvn clean package
+
+###  Run the JAR
+- java -jar target/robot-game-1.0.0-SNAPSHOT.jar src/main/resources/test.txt
+
+Replace txt-file with other input file if wanted
+
 ## Assignment
 
 Create an application that can read commands of the following form:
